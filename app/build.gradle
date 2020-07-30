@@ -16,7 +16,31 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+/*    sourceSets {
+        helios {
+            res.srcDirs = ['helios', '../helios/res']
+        }
+        vanilla {
+            res.srcDirs = ['vanilla', '../vanilla/res']
+        }
+    }*/
+
+    flavorDimensions "branded"
+    productFlavors {
+        helios {
+            dimension "branded"
+            applicationIdSuffix ".helios"
+        }
+        vanilla {
+            dimension "branded"
+            applicationIdSuffix ".vanilla"
+        }
+    }
+
     buildTypes {
+        debug {
+            debuggable true
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
@@ -28,6 +52,13 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+    sourceSets {
+        helios {
+            res {
+                srcDirs 'src/helios/res', 'src/helios/res/values'
+            }
+        }
     }
 }
 

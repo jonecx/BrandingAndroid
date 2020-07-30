@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vanilla Branding</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Vanilla Play</string>
+    <string name="second_fragment_label">Vanilla Icecream</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello Vanilla Play</string>
+    <string name="hello_second_fragment">Hello Vanilla Icecream. Arg: %1$s</string>
+</resources>

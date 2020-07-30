@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Helios Branding</string>
+    <string name="action_settings">Personalizations</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Prime Fragment</string>
+    <string name="second_fragment_label">Sub Prime Fragment</string>
+    <string name="next">New</string>
+    <string name="previous">Old</string>
+
+    <string name="hello_first_fragment">Hello prime fragment</string>
+    <string name="hello_second_fragment">Hello sub prime fragment. Arg: %1$s</string>
+</resources>

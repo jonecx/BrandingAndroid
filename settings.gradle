@@ -1,2 +1,4 @@
+include ':helios'
+include ':vanilla'
 include ':app'
 rootProject.name = "BrandingAndroid"
